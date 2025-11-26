@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="br.com.jrb.SaqueRunner" time="0.268" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\conta\Desktop\JRB-SO\target\test-classes;C:\Users\conta\Desktop\JRB-SO\target\classes;C:\Users\conta\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\conta\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\conta\.m2\repository\io\cucumber\cucumber-java\7.11.1\cucumber-java-7.11.1.jar;C:\Users\conta\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\conta\.m2\repository\io\cucumber\cucumber-junit\7.11.1\cucumber-junit-7.11.1.jar;C:\Users\conta\.m2\repository\io\cucumber\cucumber-core\7.11.1\cucumber-core-7.11.1.jar;C:\Users\conta\.m2\repository\io\cucumber\cucumber-gherkin\7.11.1\cucumber-gherkin-7.11.1.jar;C:\Users\conta\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.1\cucumber-gherkin-messages-7.11.1.jar;C:\Users\conta\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\conta\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\conta\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\conta\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\conta\.m2\repository\io\cucumber\datatable\7.11.1\datatable-7.11.1.jar;C:\Users\conta\.m2\repository\io\cucumber\cucumber-plugin\7.11.1\cucumber-plugin-7.11.1.jar;C:\Users\conta\.m2\repository\io\cucumber\docstring\7.11.1\docstring-7.11.1.jar;C:\Users\conta\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\conta\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\conta\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\conta\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\conta\AppData\Local\Temp\surefire15406529926624652628\surefirebooter-20251126200553717_3.jar C:\Users\conta\AppData\Local\Temp\surefire15406529926624652628 2025-11-26T20-05-53_622-jvmRun1 surefire-20251126200553717_1tmp surefire_0-20251126200553717_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\conta\Desktop\JRB-SO\target\test-classes;C:\Users\conta\Desktop\JRB-SO\target\classes;C:\Users\conta\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\conta\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\conta\.m2\repository\io\cucumber\cucumber-java\7.11.1\cucumber-java-7.11.1.jar;C:\Users\conta\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\conta\.m2\repository\io\cucumber\cucumber-junit\7.11.1\cucumber-junit-7.11.1.jar;C:\Users\conta\.m2\repository\io\cucumber\cucumber-core\7.11.1\cucumber-core-7.11.1.jar;C:\Users\conta\.m2\repository\io\cucumber\cucumber-gherkin\7.11.1\cucumber-gherkin-7.11.1.jar;C:\Users\conta\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.1\cucumber-gherkin-messages-7.11.1.jar;C:\Users\conta\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\conta\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\conta\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\conta\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\conta\.m2\repository\io\cucumber\datatable\7.11.1\datatable-7.11.1.jar;C:\Users\conta\.m2\repository\io\cucumber\cucumber-plugin\7.11.1\cucumber-plugin-7.11.1.jar;C:\Users\conta\.m2\repository\io\cucumber\docstring\7.11.1\docstring-7.11.1.jar;C:\Users\conta\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\conta\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\conta\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\conta\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\conta"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\conta\Desktop\JRB-SO"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\conta\AppData\Local\Temp\surefire15406529926624652628\surefirebooter-20251126200553717_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="conta"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\conta\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\conta\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\Users\conta\Desktop\JRB-SO"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Users\conta\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\nodejs\;C:\ProgramData\UNIVALI\Portugol Studio;C:\Users\conta\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\conta\AppData\Local\Programs\Python\Python313\;C:\Users\conta\AppData\Local\Microsoft\WindowsApps;C:\Users\conta\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\Users\conta\AppData\Roaming\npm;c:\Users\conta\.vscode\extensions\vscjava.vscode-java-debug-0.58.3\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Saque com saldo suficiente" classname="Saque de dinheiro" time="0.057">
+    <system-out><![CDATA[
+Scenario: Saque com saldo suficiente                                  &amp#27;[90m# features/saque.feature:6&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque a conta &amp#27;[0m&amp#27;[32m&amp#27;[1m"111.111.111-11"&amp#27;[0m&amp#27;[32m tem saldo &amp#27;[0m&amp#27;[32m&amp#27;[1m500.00&amp#27;[0m                 &amp#27;[90m# br.com.jrb.steps.SaqueSteps.criarConta(java.lang.String,double)&amp#27;[0m
+Saque -200.0 registrado
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mo usuÃ¡rio solicita saque de &amp#27;[0m&amp#27;[32m&amp#27;[1m200.00&amp#27;[0m&amp#27;[32m para o CPF &amp#27;[0m&amp#27;[32m&amp#27;[1m"111.111.111-11"&amp#27;[0m &amp#27;[90m# br.com.jrb.steps.SaqueSteps.solicitarSaque(double,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mo saldo restante deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m300.00&amp#27;[0m                               &amp#27;[90m# br.com.jrb.steps.SaqueSteps.validarSaldo(double)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Saque igual ao saldo disponível" classname="Saque de dinheiro" time="0.001">
+    <system-out><![CDATA[
+Scenario: Saque igual ao saldo disponÃ­vel                             &amp#27;[90m# features/saque.feature:11&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque a conta &amp#27;[0m&amp#27;[32m&amp#27;[1m"222.222.222-22"&amp#27;[0m&amp#27;[32m tem saldo &amp#27;[0m&amp#27;[32m&amp#27;[1m400.00&amp#27;[0m                 &amp#27;[90m# br.com.jrb.steps.SaqueSteps.criarConta(java.lang.String,double)&amp#27;[0m
+Saque -400.0 registrado
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mo usuÃ¡rio solicita saque de &amp#27;[0m&amp#27;[32m&amp#27;[1m400.00&amp#27;[0m&amp#27;[32m para o CPF &amp#27;[0m&amp#27;[32m&amp#27;[1m"222.222.222-22"&amp#27;[0m &amp#27;[90m# br.com.jrb.steps.SaqueSteps.solicitarSaque(double,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mo saldo restante deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m0.00&amp#27;[0m                                 &amp#27;[90m# br.com.jrb.steps.SaqueSteps.validarSaldo(double)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Saque com valor superior ao saldo" classname="Saque de dinheiro" time="0.002">
+    <system-out><![CDATA[
+Scenario: Saque com valor superior ao saldo                           &amp#27;[90m# features/saque.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque a conta &amp#27;[0m&amp#27;[32m&amp#27;[1m"333.333.333-33"&amp#27;[0m&amp#27;[32m tem saldo &amp#27;[0m&amp#27;[32m&amp#27;[1m100.00&amp#27;[0m                 &amp#27;[90m# br.com.jrb.steps.SaqueSteps.criarConta(java.lang.String,double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mo usuÃ¡rio solicita saque de &amp#27;[0m&amp#27;[32m&amp#27;[1m150.00&amp#27;[0m&amp#27;[32m para o CPF &amp#27;[0m&amp#27;[32m&amp#27;[1m"333.333.333-33"&amp#27;[0m &amp#27;[90m# br.com.jrb.steps.SaqueSteps.solicitarSaque(double,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mo sistema deve lanÃ§ar erro &amp#27;[0m&amp#27;[32m&amp#27;[1m"Saldo insuficiente."&amp#27;[0m               &amp#27;[90m# br.com.jrb.steps.SaqueSteps.validarErro(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Saque com valor inválido" classname="Saque de dinheiro" time="0.002">
+    <system-out><![CDATA[
+Scenario: Saque com valor invÃ¡lido                                  &amp#27;[90m# features/saque.feature:21&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque a conta &amp#27;[0m&amp#27;[32m&amp#27;[1m"444.444.444-44"&amp#27;[0m&amp#27;[32m tem saldo &amp#27;[0m&amp#27;[32m&amp#27;[1m300.00&amp#27;[0m               &amp#27;[90m# br.com.jrb.steps.SaqueSteps.criarConta(java.lang.String,double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mo usuÃ¡rio solicita saque de &amp#27;[0m&amp#27;[32m&amp#27;[1m0.00&amp#27;[0m&amp#27;[32m para o CPF &amp#27;[0m&amp#27;[32m&amp#27;[1m"444.444.444-44"&amp#27;[0m &amp#27;[90m# br.com.jrb.steps.SaqueSteps.solicitarSaque(double,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mo sistema deve lanÃ§ar erro &amp#27;[0m&amp#27;[32m&amp#27;[1m"Valor invÃ¡lido para saque."&amp#27;[0m      &amp#27;[90m# br.com.jrb.steps.SaqueSteps.validarErro(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

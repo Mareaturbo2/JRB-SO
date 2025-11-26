@@ -1,0 +1,33 @@
+{
+  "java.project.sourcePaths": [
+    "src",
+    "src\\main\\java",
+    "test\\java"
+  ],
+  "java.project.outputPath": "bin",
+  "java.project.referencedLibraries": [
+    "lib\\apiguardian-api-1.1.2.jar",
+    "lib\\cucumber-core-7.11.1.jar",
+    "lib\\cucumber-gherkin-7.11.1.jar",
+    "lib\\cucumber-java-7.11.1.jar",
+    "lib\\cucumber-junit-7.11.1.jar",
+    "lib\\cucumber-plugin-7.11.1.jar",
+    "lib\\gson-2.10.1.jar",
+    "lib\\hamcrest-core-1.3.jar",
+    "lib\\itextpdf-5.5.13.3.jar",
+    "lib\\javax.servlet-api-3.1.0.jar",
+    "lib\\jetty-http-9.4.51.v20230217.jar",
+    "lib\\jetty-io-9.4.51.v20230217.jar",
+    "lib\\jetty-server-9.4.51.v20230217.jar",
+    "lib\\jetty-servlet-9.4.51.v20230217.jar",
+    "lib\\jetty-util-9.4.51.v20230217.jar",
+    "lib\\junit-4.13.2.jar",
+    "lib\\opentest4j-1.2.0.jar",
+    "lib\\slf4j-api-2.0.9.jar",
+    "lib\\slf4j-simple-2.0.9.jar",
+    "lib\\spark-core-2.9.4.jar",
+    "lib\\tag-expressions-3.0.1.jar",
+    "lib\\tag-expressions-6.1.0.jar"
+  ],
+  "java.configuration.updateBuildConfiguration": "interactive"
+}
